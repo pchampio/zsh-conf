@@ -9,8 +9,6 @@ unsetopt prompt_cr prompt_sp
 # colored completion - use my LS_COLORS
 zstyle ':completion:*:default' list-colors ${(s.:.)LS_COLORS}
 
-eval `dircolors ~/dotfiles/dircolors/solarized.conf`
-
 # Enable completion
 # autoload -Uz compinit
 # compinit
