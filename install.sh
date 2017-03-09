@@ -38,6 +38,7 @@ touch $HOME/.zsh_history
 explain "Installation de oh-my-zsh"
   echo exit | sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 
+
 explain "Installation de zsh-syntax-highlighting"
   tell git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $HOME/.oh-my-zsh/syntax_highlighting
 

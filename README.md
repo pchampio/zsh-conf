@@ -1,9 +1,9 @@
-### A easy and customisable start-up configuration for zsh
+## A easy and customisable start-up configuration for zsh
 
 
-#### Install
+### Install
 ```
-
+sh -c "$(wgwt https://github.com/Drakirus/zsh-conf/blob/master/install.sh -O -)"
 ```
 
 Come with a dotfiles Manager (`./dotfilesManager`).  
@@ -21,7 +21,7 @@ la $HOME
  .zshrc -> /home/drakirus/dotfiles/zshrc
 ```
 
-##### from
+#### from
 
 ``` bash
 ls $HOME/dotfiles/
