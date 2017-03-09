@@ -1,5 +1,6 @@
 ## A easy and customisable start-up configuration for zsh
 
+![Fullscreen](https://raw.githubusercontent.com/Drakirus/zsh-conf/master/capture.png)  
 
 ### Install
 ```

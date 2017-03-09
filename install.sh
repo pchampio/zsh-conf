@@ -67,7 +67,7 @@ explain "Clone sample dotfiles (come with a simple dotfiles Manager)"
 # .zshrc -> /home/drakirus/dotfiles/zshrc
 
 
-ignoreRC="README.md|.gitignore|install.sh|dotfilesManager"
+ignoreRC="README.md|.gitignore|install.sh|dotfilesManager|capture.png"
 dir=$HOME/dotfiles
 
 explain "Create symlink for dotfiles"
