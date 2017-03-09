@@ -11,7 +11,7 @@ The dotfilesManager symlinks all the file in ~/dotfiles/ in the $HOME
 
 #### Exemple  
 ``` bash
-la $HOME
+$ la $HOME
 
  .gitconfig -> /home/drakirus/dotfiles/gitconfig
  .gitignore -> /home/drakirus/dotfiles/gitignore
@@ -24,7 +24,7 @@ la $HOME
 #### from
 
 ``` bash
-ls $HOME/dotfiles/
+$ ls $HOME/dotfiles/
 
  gitconfig
  gitignore
