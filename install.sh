@@ -66,24 +66,4 @@ explain "Clone sample dotfiles (come with a simple dotfiles Manager)"
 # .vimrc -> /home/drakirus/dotfiles/vimrc
 # .zshrc -> /home/drakirus/dotfiles/zshrc
 
-
-ignoreRC="README.md|.gitignore|install.sh|dotfilesManager|capture.png"
-dir=$HOME/dotfiles
-
-explain "Create symlink for dotfiles"
-# change to the dotfiles directory
-cd $dir
-
-files=`find . -maxdepth 1 -type f | sed 's|./||' | egrep -v $ignoreRC`
-
-# create symlinks from the homedir to any files in the $HOME/dotfiles directory specified
-for file in $files; do
-  if [ -f $HOME/.$file ]; then
-    tell rm $HOME/.$file
-  fi
-  tell ln -s $dir/$file $HOME/.$file
-done
-
-
-# run zsh
-zsh && exit
+./dotfilesManager

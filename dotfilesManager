@@ -14,7 +14,7 @@ explain() {
 }
 
 
-ignoreRC="README.md|.gitignore|install.sh|dotfilesManager"
+ignoreRC="README.md|.gitignore|install.sh|dotfilesManager|capture.png"
 dir=~/dotfiles
 
 explain "Create symlink for dotfiles"
