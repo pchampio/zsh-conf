@@ -4,7 +4,7 @@
 
 ### Install
 ```
-sh -c "$(wget https://raw.githubusercontent.com/Drakirus/zsh-conf/master/install.sh -O -)"
+sh -c "$(wget https://raw.githubusercontent.com/zephylac/dotfiles/master/install.sh -O -)"
 ```
 
 Come with a dotfiles Manager (`./dotfilesManager`).  
