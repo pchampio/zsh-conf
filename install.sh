@@ -1,7 +1,10 @@
 #!/bin/sh
 
+cd
+
 if [ -d "$HOME/dotfiles/" ]; then
   printf "\033[1;31mError DIRECTORY $HOME/dotfiles/ exist !!\033[0m\n"
+  exit 1
 fi
 
 
@@ -50,7 +53,7 @@ explain "Change default sh prompt to zsh '$ chsh -s $(which zsh)'"
 
 
 explain "Clone sample dotfiles (come with a simple dotfiles Manager)"
-  tell git clone https://github.com/Drakirus/zsh-conf.git $HOME/dotfiles/
+  tell git clone https://github.com/zephylac/dotfiles.git $HOME/dotfiles/
   cd $HOME/dotfiles/
 
 
