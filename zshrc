@@ -37,5 +37,3 @@ export KEYTIMEOUT=1
 # PROMPT THEME
 export PROMPT='%(?.%F{green}.%F{red})X_X ➜%f '
 export RPROMPT='' # set asynchronously and dynamically
-
-zstyle ':completion:*:default' list-colors ${(s.:.)LS_COLORS}
