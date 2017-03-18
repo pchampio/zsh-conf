@@ -35,5 +35,5 @@ export KEYTIMEOUT=1
 # vim as a man-page viewer
 
 # PROMPT THEME
-export PROMPT='%(?.%F{green}.%F{red})❯%f '
+export PROMPT='%(?.%F{green}.%F{red})X_X ➜%f '
 export RPROMPT='' # set asynchronously and dynamically
