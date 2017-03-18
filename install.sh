@@ -1,5 +1,7 @@
 #!/bin/sh
 
+cd
+
 if [ -d "$HOME/dotfiles/" ]; then
   printf "\033[1;31mError DIRECTORY $HOME/dotfiles/ exist !!\033[0m\n"
 fi
