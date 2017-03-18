@@ -50,7 +50,7 @@ explain "Change default sh prompt to zsh '$ chsh -s $(which zsh)'"
 
 
 explain "Clone sample dotfiles (come with a simple dotfiles Manager)"
-  tell git clone git@github.com:zephylac/dotfiles.git $HOME/dotfiles/
+  tell git clone https://github.com/zephylac/dotfiles.git $HOME/dotfiles/
   cd $HOME/dotfiles/
 
 
