@@ -31,6 +31,7 @@ git_dirty() {
 # If there are changes upstream, display a ⇣
 # If there are changes that have been committed but not yet pushed, display a ⇡
 git_arrows() {
+  return
   # do nothing if there is no upstream configured
   command git rev-parse --abbrev-ref @'{u}' &>/dev/null || return
 
